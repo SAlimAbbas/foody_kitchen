@@ -1,0 +1,9 @@
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: var(--secondary-color);
+    
+}
+.navbar-expand-lg .navbar-nav .nav-link.active-link{
+    color: var(--primary-color);
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgb(192, 236, 192);
+}
