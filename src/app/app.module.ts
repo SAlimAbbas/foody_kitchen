@@ -10,6 +10,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { MenuComponent } from './pages/menu/menu.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MenupageComponent } from './pages/menupage/menupage.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AboutComponent,
     ContactComponent,
     MenuComponent,
+    MenupageComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule],
   providers: [],
